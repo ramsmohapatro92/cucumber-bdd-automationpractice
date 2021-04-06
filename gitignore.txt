@@ -1,0 +1,10 @@
+target
+.settings
+.classpath
+.DS_Store
+.project
+output
+report
+.metadata
+.metadata
+.temp
