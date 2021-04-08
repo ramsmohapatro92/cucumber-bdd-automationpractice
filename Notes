@@ -41,7 +41,7 @@ Get the Pom.xml copy from https://github.com/cucumber/cucumber-java-skeleton/blo
         </dependency>
     </dependencies>
 
-    <build>
+    <build> 
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -63,3 +63,33 @@ Get the Pom.xml copy from https://github.com/cucumber/cucumber-java-skeleton/blo
 </project>
 ==========================================
 Cucumber Hooks: https://zsoltfabok.com/blog/2012/09/cucumber-jvm-hooks/
+=========================================
+Eclipse can't create package and instead it creates a folder:
+------------------------------------------------------------
+Right click on Project Folder > Properties > "Java Build Path"
+Select source folder where you are creating the package
+Double click on "Excluded" under the folder you want changes
+Edit
+Under Exclusions patterns > remove everything you need to include specially remove the **
+Finish
+Apply
+==============================================
+layout:
+src/test/resources
+featurefile:
+login.feature--->src/test/resources
+Scenario should be written in your feature file
+
+
+src/test/java:
+Test cases should be written in your stepdefination file.
+1. StepDefination
+2. 
+
+src/main/java:
+com.pages>finish>create class
+pagelayer>loginpage.java
+Here we will create page library/page object model/encapsulations/loactors will be defined here
+utility>com.qa.util
+driverfactory>com.qa.factory>DriverFactory
+
