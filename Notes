@@ -91,5 +91,11 @@ com.pages>finish>create class
 pagelayer>loginpage.java
 Here we will create page library/page object model/encapsulations/loactors will be defined here
 utility>com.qa.util
-driverfactory>com.qa.factory>DriverFactory
+driverfactory>com.qa.factory>DriverFactory>write a utility or function that will return the driver
+
+
+usage of thread local whic will further extended to parallel run of test suite and Threadlocal is a JAVA 8 feature:<>
+java.lang.ThreadLocal<WebDriver>: This class provides thread-local variables. 
+These variables differ fromtheir normal counterparts in that each thread that accesses one (via its get or set method) has its own, independently initializedcopy of the variable. ThreadLocal instances are typically privatestatic fields in classes 
+that wish to associate state with a thread (e.g.,a user ID or Transaction ID). 
 

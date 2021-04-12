@@ -1,10 +1,9 @@
-target
+/target
 .settings
 .classpath
 .DS_Store
 .project
-output
-report
+/output/*
+/report*
+.metadata/*
 .metadata
-.metadata
-.temp
