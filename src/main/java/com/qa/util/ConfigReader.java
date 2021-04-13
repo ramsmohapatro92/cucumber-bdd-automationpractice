@@ -12,8 +12,8 @@ public class ConfigReader {
 	/**
 	 * This method is to load properties from config.properties file
 	 * Here prop is a private member belongs to config reader class.
-	 * we are taking help of init_prop() to return the prop details
-	 * @return
+	 * we are taking help of init_prop() to return the prop details.
+	 * @return It will return Properties prop object
 	 */
 
 	public Properties init_prop() {
