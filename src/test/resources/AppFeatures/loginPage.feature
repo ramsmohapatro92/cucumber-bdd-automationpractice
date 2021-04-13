@@ -17,7 +17,7 @@ Scenario: Login with correct credentials
 Given User is on login page
 When  User gets the title of the page
 When User enters username "automationtestram@gmail.com"
-And User enters password "Avaya@123"
+And User enters password "Avaya@469"
 And User clicks on login button
 When  User gets the title of the page
 And The page title should be "My account - My Store"

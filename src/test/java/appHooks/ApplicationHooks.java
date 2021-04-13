@@ -45,7 +45,7 @@ public class ApplicationHooks {
 		if (scenario.isFailed()) {
 			String screenshotname = scenario.getName().replaceAll(" ", "_");
 			byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-			scenario.attach(sourcePath, "Image/PNG", screenshotname);
+			scenario.attach(sourcePath, "image/png", screenshotname);
 		}
 	}
 
